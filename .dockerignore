@@ -1,0 +1,11 @@
+# Ignore everything else to keep the context light
+.dart_tool/
+.idea/
+ios/
+android/
+linux/
+windows/
+macos/
+
+# Allow ONLY the compiled web folder through to Docker
+!build/web
